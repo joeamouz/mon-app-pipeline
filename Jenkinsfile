@@ -2,6 +2,7 @@ pipeline {
     agent {
         dockerfile {
             dir 'agent'
+            args '--network mon-app-pipeline_default'
         }
     }
 
