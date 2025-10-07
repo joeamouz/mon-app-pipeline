@@ -1,3 +1,9 @@
-# Dépendances node_modules
-# Fichiers de log npm-debug.log
-# Fichiers de sortie d'ateliers grep-output
+# Dépendances Node.js
+node_modules/
+
+# Données persistantes des services Docker
+jenkins_home/
+sonarqube_data/
+
+# Fichiers de logs
+npm-debug.log
